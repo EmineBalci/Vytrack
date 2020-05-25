@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911e7b79-a07b-4c85-8d94-9de32e2be38d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Vytrack/pages/CalendarEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Vytrack/pages/CalendarEventsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/AssignmentTC3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/AssignmentTC3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/deneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/deneme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/Vytrack/pages/CalendarEventsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Vytrack/pages/CalendarEventsPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/Vytrack/tests/assignments/AssignmentTC3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Vytrack/tests/assignments/AssignmentTC3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Vytrack/tests/assignments/deneme.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Vytrack/tests/assignments/deneme.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,8 +148,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AssignmentTC3.TC_6" />
-        <item itemvalue="TestNG.AssignmentTC3.TC_5" />
         <item itemvalue="TestNG.AssignmentTC3.TC_4" />
+        <item itemvalue="TestNG.AssignmentTC3.TC_5" />
         <item itemvalue="Application.deneme" />
         <item itemvalue="TestNG.AssignmentTC3.TC_3" />
       </list>
@@ -180,22 +177,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590249016470" />
-    <state width="1557" height="233" key="GridCell.Tab.0.bottom" timestamp="1590431984389">
+    <state x="467" y="28" key="CommitChangelistDialog2" timestamp="1590432014632">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590431984389" />
-    <state width="1557" height="233" key="GridCell.Tab.0.center" timestamp="1590431984389">
+    <state x="467" y="28" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590432014632" />
+    <state width="1557" height="233" key="GridCell.Tab.0.bottom" timestamp="1590443058593">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590431984389" />
-    <state width="1557" height="233" key="GridCell.Tab.0.left" timestamp="1590431984389">
+    <state width="1557" height="233" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590443058593" />
+    <state width="1557" height="233" key="GridCell.Tab.0.center" timestamp="1590443058593">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590431984389" />
-    <state width="1557" height="233" key="GridCell.Tab.0.right" timestamp="1590431984389">
+    <state width="1557" height="233" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590443058593" />
+    <state width="1557" height="233" key="GridCell.Tab.0.left" timestamp="1590443058592">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="233" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590431984389" />
+    <state width="1557" height="233" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590443058592" />
+    <state width="1557" height="233" key="GridCell.Tab.0.right" timestamp="1590443058593">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="233" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590443058593" />
     <state x="330" y="88" key="Maven.ArtifactSearchDialog" timestamp="1590154393120">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -208,6 +209,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="508" y="55" key="refactoring.ChangeSignatureDialog/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1589368591664" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1590439342344">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590439342344" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,7 +227,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/AssignmentTC3.java</url>
-          <line>48</line>
+          <line>49</line>
           <properties class="com.Vytrack.tests.assignments.AssignmentTC3" method="TC_3">
             <option name="EMULATED" value="true" />
           </properties>
@@ -230,11 +235,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/AssignmentTC3.java</url>
-          <line>63</line>
+          <line>64</line>
           <properties class="com.Vytrack.tests.assignments.AssignmentTC3" method="TC_4">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/AssignmentTC3.java</url>
+          <line>140</line>
+          <properties class="com.Vytrack.tests.assignments.AssignmentTC3" method="TC_6">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

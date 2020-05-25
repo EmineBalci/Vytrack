@@ -5,11 +5,12 @@ import com.Vytrack.pages.DashboardPage;
 import com.Vytrack.pages.LoginPage;
 import com.Vytrack.tests.TestBase;
 import com.Vytrack.utilities.BrowserUtils;
-import com.Vytrack.utilities.Driver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class AssignmentTC3 extends TestBase {
 
@@ -146,7 +147,7 @@ public class AssignmentTC3 extends TestBase {
             CalendarEventsPage calendarEventsPage=new CalendarEventsPage();
 
             calendarEventsPage.waitUntilLoaderScreenDisappear();
-            BrowserUtils.waitFor(3);
+            BrowserUtils.waitFor(5);
             calendarEventsPage.filter.click();
             BrowserUtils.waitFor(3);
             calendarEventsPage.titlebox.click();
@@ -157,8 +158,21 @@ public class AssignmentTC3 extends TestBase {
             BrowserUtils.waitFor(3);
             calendarEventsPage.firstRow.click();
 
-            System.out.println(Driver.get().findElement(By.xpath("(//div[@class='control-group attribute-row'])[1]")).getText());
+            BrowserUtils.waitFor(5);
+            List<String> expectedTitleData=Arrays.asList("Title", "Description", "Start", "End", "All-Day Event", "Organizer", "Guests", "Recurrence", "Call Via Hangout");
+            List<String> actualTitleData=calendarEventsPage.meetingTitleData();
+            Assert.assertEquals(actualTitleData,expectedTitleData,"Verify meeting table titles");
+
+            BrowserUtils.waitFor(5);
+            List<String>  expectedMeetingData= Arrays.asList("Testers meeting", "This is a a weekly testers meeting", "Nov 27, 2019, 9:30 AM", "Nov 27, 2019, 10:30 AM", "No", "Stephan Haley", "Tom Smith - Required", "Weekly every 1 week on Wednesday", "No");
+            List<String> actualMeetingData=calendarEventsPage.meetingData();
+            Assert.assertEquals(actualMeetingData,expectedMeetingData,"Verify meeting data");
+
+            System.out.println(calendarEventsPage.meetingTitleData());
+
 
 
         }
+
+
     }

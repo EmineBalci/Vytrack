@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CalendarEventsPage extends BasePage {
@@ -62,8 +63,25 @@ public class CalendarEventsPage extends BasePage {
 
                 public WebElement firstRow;
 
+        public List<String> meetingTitleData(){
 
+        List<String> titleList= new ArrayList<>();
+        for(int i=1;i<=9;i++) {
 
+            titleList.add(Driver.get().findElement(By.xpath("(//label[@class='control-label'])["+i+"]")).getText()) ;
+        }
+        return titleList;
+    }
+
+        public List<String> meetingData(){
+
+            List<String> dataList= new ArrayList<>();
+            for(int i=1;i<=9;i++) {
+
+              dataList.add(Driver.get().findElement(By.xpath("(//div[@class='controls'])["+i+"]")).getText()) ;
+            }
+            return dataList;
+        }
 
         public int rowNumber = getNumberofRows();
 
