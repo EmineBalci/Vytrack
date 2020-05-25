@@ -34,6 +34,36 @@ public class CalendarEventsPage extends BasePage {
 
                 public WebElement totalPages;
 
+        @FindBy(xpath = "//button/input[@type='checkbox']")
+
+                public WebElement checkbox;
+
+        @FindBy(xpath = "//input[@tabindex='-1']")
+
+                public WebElement checkboxIndex;
+
+        @FindBy(css = ".fa-chevron-right.hide-text")
+
+                public WebElement rightArrow;
+
+        @FindBy(css = ".fa-filter.hide-text")
+
+                public WebElement filter;
+
+        @FindBy(css = ".filter-criteria-hint")
+
+                public WebElement titlebox;
+
+        @FindBy(xpath = "//div/input[@type='text']")
+
+                public WebElement titleInputBox;
+
+        @FindBy(css = ".string-cell.grid-cell.grid-body-cell.grid-body-cell-title")
+
+                public WebElement firstRow;
+
+
+
 
         public int rowNumber = getNumberofRows();
 
@@ -41,5 +71,13 @@ public class CalendarEventsPage extends BasePage {
         List<WebElement> allRows=Driver.get().findElements(By.xpath("//table[@class='grid table-hover table table-bordered table-condensed']/tbody/tr"));
         return allRows.size()-1;
     }
+
+        public void dropdownOptions() {
+        List<WebElement> options=Driver.get().findElements(By.cssSelector(".dropdown-menu.dropdown-menu__select-all-header-cell"));
+
+        options.get(0).click();
+
+    }
+
 
 }

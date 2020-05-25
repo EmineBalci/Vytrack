@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911e7b79-a07b-4c85-8d94-9de32e2be38d" name="Default Changelist" comment="" />
+    <list default="true" id="911e7b79-a07b-4c85-8d94-9de32e2be38d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Vytrack/pages/CalendarEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Vytrack/pages/CalendarEventsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/AssignmentTC3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/AssignmentTC3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/deneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/deneme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Vytrack/pages/CalendarEventsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Vytrack/pages/CalendarEventsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Vytrack/tests/assignments/AssignmentTC3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Vytrack/tests/assignments/AssignmentTC3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Vytrack/tests/assignments/deneme.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Vytrack/tests/assignments/deneme.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,12 +37,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1bqerwZUYxHnsZWP0UiKJJfJbEt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/Vytrack/pages" />
   </component>
   <component name="RecentsManager">
@@ -48,7 +62,7 @@
       <recent name="C:\Users\cangu\IdeaProjects\Vytrack" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AssignmentTC3.TC_4">
+  <component name="RunManager" selected="TestNG.AssignmentTC3.TC_6">
     <configuration name="deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Vytrack.tests.assignments.deneme" />
       <module name="Vytrack" />
@@ -58,42 +72,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssignmentTC3.TC_1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vytrack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Vytrack.tests.assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Vytrack.tests.assignments" />
-      <option name="MAIN_CLASS_NAME" value="com.Vytrack.tests.assignments.AssignmentTC3" />
-      <option name="METHOD_NAME" value="TC_1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssignmentTC3.TC_2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vytrack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Vytrack.tests.assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Vytrack.tests.assignments" />
-      <option name="MAIN_CLASS_NAME" value="com.Vytrack.tests.assignments.AssignmentTC3" />
-      <option name="METHOD_NAME" value="TC_2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,13 +112,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AssignmentTC3.TC_5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vytrack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Vytrack.tests.assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Vytrack.tests.assignments" />
+      <option name="MAIN_CLASS_NAME" value="com.Vytrack.tests.assignments.AssignmentTC3" />
+      <option name="METHOD_NAME" value="TC_5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignmentTC3.TC_6" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vytrack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Vytrack.tests.assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Vytrack.tests.assignments" />
+      <option name="MAIN_CLASS_NAME" value="com.Vytrack.tests.assignments.AssignmentTC3" />
+      <option name="METHOD_NAME" value="TC_6" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AssignmentTC3.TC_6" />
+        <item itemvalue="TestNG.AssignmentTC3.TC_5" />
         <item itemvalue="TestNG.AssignmentTC3.TC_4" />
         <item itemvalue="Application.deneme" />
         <item itemvalue="TestNG.AssignmentTC3.TC_3" />
-        <item itemvalue="TestNG.AssignmentTC3.TC_2" />
-        <item itemvalue="TestNG.AssignmentTC3.TC_1" />
       </list>
     </recent_temporary>
   </component>
@@ -166,30 +180,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590249016470" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1590251177223">
+    <state width="1557" height="233" key="GridCell.Tab.0.bottom" timestamp="1590431984389">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590251177223" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1590251177223">
+    <state width="1557" height="233" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590431984389" />
+    <state width="1557" height="233" key="GridCell.Tab.0.center" timestamp="1590431984389">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590251177223" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1590251177223">
+    <state width="1557" height="233" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590431984389" />
+    <state width="1557" height="233" key="GridCell.Tab.0.left" timestamp="1590431984389">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590251177223" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1590251177223">
+    <state width="1557" height="233" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590431984389" />
+    <state width="1557" height="233" key="GridCell.Tab.0.right" timestamp="1590431984389">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590251177223" />
+    <state width="1557" height="233" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590431984389" />
     <state x="330" y="88" key="Maven.ArtifactSearchDialog" timestamp="1590154393120">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="330" y="88" key="Maven.ArtifactSearchDialog/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590154393120" />
-    <state x="508" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1589725521307">
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1590423312637">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="508" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1589725521307" />
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1590423312637" />
     <state x="508" y="55" key="refactoring.ChangeSignatureDialog" timestamp="1589368591664">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -208,7 +222,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/AssignmentTC3.java</url>
-          <line>46</line>
+          <line>48</line>
           <properties class="com.Vytrack.tests.assignments.AssignmentTC3" method="TC_3">
             <option name="EMULATED" value="true" />
           </properties>
@@ -216,7 +230,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/Vytrack/tests/assignments/AssignmentTC3.java</url>
-          <line>61</line>
+          <line>63</line>
           <properties class="com.Vytrack.tests.assignments.AssignmentTC3" method="TC_4">
             <option name="EMULATED" value="true" />
           </properties>
